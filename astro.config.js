@@ -9,9 +9,9 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   // 请修改为你自己的线上地址，谢谢茄子
-  site: 'https://linexic.top',
+  site: '/',
 
-  base: process.env.NODE_ENV === "production" ? "/koi/" : "",
+  base: process.env.NODE_ENV === "production" ? "/" : "",
   integrations: [mdx(), sitemap(), svelte()],
 
   markdown: {
