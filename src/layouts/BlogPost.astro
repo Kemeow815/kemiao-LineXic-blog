@@ -7,6 +7,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import BaseLayout from "./BaseLayout.astro";
 import Container from "../components/Container.astro";
 import MarkdownBody from "../components/MarkdownBody.astro";
+import Comment from '../components/Comment.astro';
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -14,7 +15,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
 <BaseLayout>
-	<BaseHead slot="head" title={title} description={description} image={heroImage} />
+	<BaseHead slot="head" title={title} description={description ?? ''} image={heroImage} />
 	<Header />
 	<Container defaultPadding={true}>
 		<div class="mb-8">
@@ -29,7 +30,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				</MarkdownBody>
 			</article>
 		</div>
-		<slot name="comment" />
+		
+		<slot name="Comment" />
+
 	</Container>
+	<Comment />
 	<Footer />
 </BaseLayout>

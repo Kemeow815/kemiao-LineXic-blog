@@ -2,6 +2,7 @@
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
 import {filterPosts} from "../../utils/misc";
+import Comment from '../../components/Comment.astro';
 
 export async function getStaticPaths() {
 	const posts = filterPosts(await getCollection('blog'), {
@@ -21,4 +22,18 @@ const { Content } = await post.render();
 
 <BlogPost {...post.data}>
 	<Content />
+	
+<div id="tcomment"></div>
+<script is:inline defer src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.min.js"
+ onload="initTwikoo()"></script>
+<script is:inline> 
+function initTwikoo() {
+  twikoo.init({
+    envId: 'https://twikioo.linexic.top', // 环境id，https://xxx.vercel.app，
+    //为了在大陆有很好的访问速度，我绑定了自定义二级域名。
+    //is:inline 是为了在astro中正确加载。
+    el: '#tcomment', 
+  });
+}
+</script>
 </BlogPost>
