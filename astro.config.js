@@ -3,6 +3,8 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
+import icon from "astro-icon";
+
 
 
 
@@ -12,7 +14,7 @@ export default defineConfig({
   site: 'https://www.linexic.top/',
 
   base: process.env.NODE_ENV === "production" ? "/" : "",
-  integrations: [mdx(), sitemap(), svelte()],
+  integrations: [mdx(), sitemap(), svelte(), icon()],
 
   markdown: {
     remarkRehype: {

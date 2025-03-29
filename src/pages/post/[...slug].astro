@@ -23,17 +23,20 @@ const { Content } = await post.render();
 <BlogPost {...post.data}>
 	<Content />
 	
-<div id="tcomment"></div>
-<script is:inline defer src="https://cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.min.js"
- onload="initTwikoo()"></script>
-<script is:inline> 
-function initTwikoo() {
-  twikoo.init({
-    envId: 'https://twikioo.linexic.top', // 环境id，https://xxx.vercel.app，
-    //为了在大陆有很好的访问速度，我绑定了自定义二级域名。
-    //is:inline 是为了在astro中正确加载。
-    el: '#tcomment', 
-  });
-}
+	<script src="https://giscus.app/client.js"
+        data-repo="LineXic/LineXic-blog"
+        data-repo-id="R_kgDOOQmiLw"
+        data-category="Ideas"
+        data-category-id="DIC_kwDOOQmiL84CokoA"
+        data-mapping="url"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
 </script>
 </BlogPost>
