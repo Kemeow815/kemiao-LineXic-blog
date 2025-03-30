@@ -8,7 +8,7 @@ import headerImageNight from "./assets/day-night.jpg";
 export const SITE_LANGUAGE = "zh-hans-CN";
 
 // 网站名称
-export const SITE_TITLE = 'LineXic书屋·';
+export const SITE_TITLE = 'LineXic书屋';
 
 // 网站的副标题
 export const SITE_DESCRIPTION = '念念不忘，必有回响。';

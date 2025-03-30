@@ -1,6 +1,6 @@
 ---
 title: '月记之四:高中的机遇与挑战'
-description: '关于 Koi 模板的常见修改需求，可以通过修改配置文件实现'
+description: ''
 pubDate: '2024-11-1 '
 ---
 
