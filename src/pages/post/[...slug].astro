@@ -1,35 +1,66 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
-import {filterPosts} from "../../utils/misc";
-import Comment from '../../components/Comment.astro';
+import {filterPosts, sortByDate} from "../../utils/misc"; // 新增 sortByDate 导入
 
 export async function getStaticPaths() {
 	const posts = filterPosts(await getCollection('blog'), {
 		filterDraft: true,
 		filterUnlisted: false,
 	});
-	return posts.map((post) => ({
+	const sortedPosts = sortByDate(posts);
+	
+	return sortedPosts.map((post, index) => ({
 		params: { slug: post.slug },
-		props: post,
+		props: {
+			...post,
+			prevPost: sortedPosts[index - 1] || null,  // 新增上一篇
+			nextPost: sortedPosts[index + 1] || null
+		},
 	}));
 }
-type Props = CollectionEntry<'blog'>;
 
+type Props = CollectionEntry<'blog'> & {
+	prevPost: CollectionEntry<'blog'> | null; // 新增类型
+	nextPost: CollectionEntry<'blog'> | null;
+};
+
+const { prevPost, nextPost } = Astro.props; // 新增解构
 const post = Astro.props;
 const { Content } = await post.render();
 ---
 
 <BlogPost {...post.data}>
 	<Content />
-	
+
+	{/* 新增导航按钮容器 */}
+	<div class="post-navigation flex flex-col gap-3 sm:flex-row sm:justify-between mt-8">
+		{prevPost && (
+			<a 
+				href={`/post/${prevPost.slug}`}
+				class="prev-post w-full sm:w-auto bg-[var(--color-primary-100)] hover:bg-[var(--color-primary-200)] text-[var(--color-primary-600)] px-4 py-2.5 text-sm rounded-lg transition-colors dark:bg-[var(--color-primary-900)] dark:hover:bg-[var(--color-primary-800)] dark:text-[var(--color-primary-200)]"
+			>
+				 上一篇：{prevPost.data.title}
+			</a>
+		)}
+		
+		{nextPost && (
+			<a
+				href={`/post/${nextPost.slug}`}
+				class="next-post w-full sm:w-auto bg-[var(--color-accent-100)] hover:bg-[var(--color-accent-200)] text-[var(--color-accent-600)] px-4 py-2.5 text-sm rounded-lg transition-colors dark:bg-[var(--color-accent-900)] dark:hover:bg-[var(--color-accent-800)] dark:text-[var(--color-accent-200)]"
+			>
+				下一篇：{nextPost.data.title}
+			</a>
+		)}
+	</div>
+
 	<script src="https://giscus.app/client.js"
         data-repo="LineXic/LineXic-blog"
         data-repo-id="R_kgDOOQmiLw"
         data-category="Ideas"
         data-category-id="DIC_kwDOOQmiL84CokoA"
-        data-mapping="url"
-        data-strict="0"
+        data-mapping="title"
+        data-strict="1"
         data-reactions-enabled="1"
         data-emit-metadata="1"
         data-input-position="top"

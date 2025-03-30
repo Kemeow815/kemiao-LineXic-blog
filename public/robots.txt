@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Algolia-Crawler-Verif: B5E99C096C684B7E
+sitemap: https://linexic.top/sitemap.xml

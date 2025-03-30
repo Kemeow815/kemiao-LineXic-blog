@@ -4,6 +4,8 @@ description: '在掘金看到的一篇文章，看到了人们对开源的热爱
 pubDate: '2024-07-11'  
 ---
 
+![浏览器图片](https://linexic.top/img/liulanqi.jpg)
+
 现在的互联网看此已经形成了一种趋势就是Chrome，Edge，Firefox三大浏览器巨头占据网络，并且现在有名的闭源浏览器Brave 和 Opera都采用了Google的Chromium搜索引擎而chrome就占领了「头头」地位了，这个时候有一个开源浏览器就显得尤为重要，不受商业模式的污染，只专心做自己的浏览器
 
 值得注意的时候，20年前，GitHub的创始人就为了Firefox买下了两页广告纸

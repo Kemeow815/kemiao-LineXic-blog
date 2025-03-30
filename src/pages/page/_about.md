@@ -28,4 +28,4 @@ GitHub是一个储存代码的地方我可以把我写到的放在里面，通�
 
 ## 技术栈
 
-[技术栈](https://camo.githubusercontent.com/e024ad2234b19775660cb4c1cfe0504b27bc3ccef3c9dba8b934878a6fed4998/68747470733a2f2f736b696c6c69636f6e732e6465762f69636f6e733f693d7675652c68746d6c2c6373732c6a732c6e6f64656a732c6e706d2c706e706d2c636c6f7564666c6172652c76657263656c2c617374726f2c7461696c77696e642c6769742c6769746875622c706f7765727368656c6c2c7673636f6465267065726c696e653d35)
+<img src="https://skillicons.dev/icons?i=vue,html,css,js,nodejs,npm,pnpm,cloudflare,vercel,astro,tailwind,git,github,powershell,vscode&perline=5">

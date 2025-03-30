@@ -4,14 +4,16 @@ description: '折腾termux的一篇'
 pubDate: '2023-10-03'
 ---
 
+![封面图](https://linexic.top/img/kali.jpg)
+
 ## 你需要准备的
 
 [termux](https://termux.dev/en/ "termux")（官网）  
-
+<br>
 [termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk)（GitHub下载）
-
+<br>
 一双手，一部手机，一个键盘（不是
-
+<br>
 打开Termux，先切换pkg源
 
 ```bash

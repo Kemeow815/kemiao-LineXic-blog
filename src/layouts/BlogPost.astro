@@ -7,7 +7,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 import BaseLayout from "./BaseLayout.astro";
 import Container from "../components/Container.astro";
 import MarkdownBody from "../components/MarkdownBody.astro";
-import Comment from '../components/Comment.astro';
+
 
 type Props = CollectionEntry<'blog'>['data'];
 
@@ -34,6 +34,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 		<slot name="Comment" />
 
 	</Container>
-	<Comment />
+	
 	<Footer />
 </BaseLayout>
