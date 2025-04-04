@@ -1,3 +1,5 @@
+---
+
 // 定义组件的Props接口
 interface Props {
     date: Date;         // 必需属性：日期对象
@@ -7,6 +9,8 @@ interface Props {
 // 从Astro.props解构出需要的属性
 // 使用重命名语法将class重命名为className，并设置默认值为空字符串
 const {date, class: className = ""} = Astro.props;
+
+---
 
 // 输出time元素
 <time 
