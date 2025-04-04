@@ -1,16 +1,22 @@
----
+// 定义组件的Props接口
 interface Props {
-    date: Date;
-    class?: string;
+    date: Date;         // 必需属性：日期对象
+    class?: string;     // 可选属性：自定义CSS类名
 }
 
+// 从Astro.props解构出需要的属性
+// 使用重命名语法将class重命名为className，并设置默认值为空字符串
 const {date, class: className = ""} = Astro.props;
----
 
-<time datetime={date.toISOString()} class={className}>{
-    date.toLocaleDateString('en-us', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
+// 输出time元素
+<time 
+    datetime={date.toISOString()}  // 机器可读的ISO格式时间（用于SEO和语义化）
+    class={className}             // 应用传入的CSS类名
+>{
+    // 将日期格式化为中文地区显示格式
+    date.toLocaleDateString('zh-cn', {
+        year: 'numeric',  // 显示完整年份（如：2023）
+        month: 'short',   // 显示简写月份（如：1月）
+        day: 'numeric'    // 显示数字日期（如：15）
     })
 }</time>
