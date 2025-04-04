@@ -15,7 +15,6 @@ GitHub 是个非常有用的东西，里面不仅有程序员分享的代码还�
 
 ![程序员做饭指南 GitHub](https://img.linexic.top/file/836153eafed43d47a1679.png "程序员做饭指南GitHub")
 
-// 其他图片同样添加 class
 ![最全中华古诗词数据库](https://img.linexic.top/file/a812531de1a282c8c857a.png)
 
 记录了从唐宋两朝近一万四千古诗人, 接近 5.5 万首唐诗加 26 万宋诗. 两宋时期 1564 位词人，21050 首词
@@ -42,7 +41,8 @@ CSS 奇技淫巧，在这里，都有。
 
 ![内容](https://img.linexic.top/file/c94735a24218532baf05a.png "内容")
 
-他的内容同步到他[博客](http://www.cnblogs.com/coco1s/ "博客")和 [issues](https://github.com/chokcoco/iCSS/issues "issues") 内容可以自己探索 GitHub：[https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS "https://github.com/chokcoco/iCSS")
+他的内容同步到他[博客](http://www.cnblogs.com/coco1s/ "博客")和 [issues](https://github.com/chokcoco/iCSS/issues "issues") 内容可以自己探索 <br>
+GitHub：[https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS "https://github.com/chokcoco/iCSS")
 
 #### 4.网页小组件版本的石蒜模拟器
 
