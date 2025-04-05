@@ -27,7 +27,7 @@ export const SITE_MENU: { title: string, href: string, target: string }[] = [
     { title: "首页", href: "./", target: "" },
     { title: "关于", href: "./page/about/", target: "" },
     { title: "友链", href: "./page/links/", target: "" },
-    { title: "归档", href: "https://i.linexic.top/archives", target: "_blank" }
+    { title: "归档", href: "https://i.linexic.top/archives", target: "_blank" },
     { title: "开往", href: "https://www.travellings.cn/go.html", target: "_blank" }
 ]
 
