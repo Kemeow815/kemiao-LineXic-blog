@@ -1,11 +1,11 @@
 // 引入的图片对象，用于 Astro 的 <Image> 组件
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
 import authorAvatarImage from "./assets/avatar.webp";
-import headerImageDay from "./assets/day-night.jpg";
-import headerImageNight from "./assets/day-night.jpg";
+import headerImageDay from "./assets/header_day.jpg";
+import headerImageNight from "./assets/header_day.jpg";
 
 // 网站的 <html> 语言标签
-export const SITE_LANGUAGE = "zh-hans-CN";
+export const SITE_LANGUAGE = "en";
 
 // 网站名称
 export const SITE_TITLE = 'LineXic书屋';
@@ -27,6 +27,7 @@ export const SITE_MENU: { title: string, href: string, target: string }[] = [
     { title: "首页", href: "./", target: "" },
     { title: "关于", href: "./page/about/", target: "" },
     { title: "友链", href: "./page/links/", target: "" },
+    { title: "归档", href: "https://i.linexic.top/archives", target: "_blank" }
     { title: "开往", href: "https://www.travellings.cn/go.html", target: "_blank" }
 ]
 
