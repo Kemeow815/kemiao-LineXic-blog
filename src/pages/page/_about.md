@@ -26,6 +26,8 @@ GitHub是一个储存代码的地方我可以把我写到的放在里面，通�
 
 如果你照抄原话不是你理解的回过头来你可能就不认识了,关于设备我最开始使用Termux后来随着设备更新我换上了电脑，使用Vscode写作
 
+## 头图
+
 博客主页头图来源于梦泽的博客，原图片是这样的
 ![博客背景图](https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/Image_200594103449956.jpg "背景图")
 
