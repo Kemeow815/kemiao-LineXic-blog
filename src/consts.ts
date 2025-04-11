@@ -11,7 +11,7 @@ export const SITE_LANGUAGE = "en";
 export const SITE_TITLE = 'LineXic书屋';
 
 // 网站的副标题
-export const SITE_DESCRIPTION = '念念不忘，必有回响。';
+export const SITE_DESCRIPTION = '难离难舍，想抱紧些。';
 
 // 博主的昵称
 export const SITE_AUTHOR_NAME = "LineXic";
