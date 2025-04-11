@@ -3,6 +3,7 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
+import rehypeExternalLinks from 'rehype-external-links';
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,10 +17,14 @@ export default defineConfig({
   integrations: [mdx(), sitemap(), svelte()],
 
   markdown: {
-    remarkRehype: {
-      footnoteLabel: "脚注",
-      footnoteBackLabel: '文档内容的脚注',
-    }
+    rehypePlugins: [
+      [
+        rehypeExternalLinks,
+        {
+          content: { type: 'text', value: ' 🔗' }
+        }
+      ],
+    ]
   },
 
   vite: {
