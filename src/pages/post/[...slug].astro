@@ -3,7 +3,6 @@ import { type CollectionEntry, getCollection } from 'astro:content';
 import BlogPost from '../../layouts/BlogPost.astro';
 import {filterPosts, sortByDate} from "../../utils/misc"; // 新增 sortByDate 导入
 
-
 export async function getStaticPaths() {
 	const posts = filterPosts(await getCollection('blog'), {
 		filterDraft: true,
@@ -92,7 +91,7 @@ const config = {
 		</div>
 	</div>
 
-    
+	
 <div>
 	<script src="https://giscus.app/client.js"
         data-repo="LineXic/LineXic-blog"
@@ -111,5 +110,5 @@ const config = {
         async>
 </script>
 	</div>
-	
+
 </BlogPost>
