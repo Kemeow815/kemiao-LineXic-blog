@@ -91,7 +91,24 @@ const config = {
 			</div>
 		</div>
 	</div>
+
 	
+	<div class="flex flex-row justify-between">
+	<div id="tcomment"></div>
+</div>  
+	<script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.42/dist/twikoo.all.min.js"></script>
+	<script>
+		import twikoo from "twikoo";
+		twikoo({
+		  envId: "https://twikoo.linexic.top/", // your environment ID or url
+		  el: "#tcomment", // the container ID which will show the comment
+		  lang: "zh-cn", // language for the comment template. for the full list, refer to https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+		}).then(() => {
+		  console.log("comment loading success");
+		});
+	  </script>
+	
+<!--	
 <div>
 	<script src="https://giscus.app/client.js"
         data-repo="LineXic/LineXic-blog"
@@ -110,4 +127,6 @@ const config = {
         async>
 </script>
 	</div>
+-->
+	
 </BlogPost>
