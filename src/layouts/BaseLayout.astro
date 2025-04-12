@@ -7,17 +7,6 @@ import "@/assets/fonts/ChillRoundF/ChillRoundF.css";
 <html lang={SITE_LANGUAGE}>
 <head>
     <slot name="head"></slot>
-
-    <head>
-      <!-- 在 head 部分添加主题初始化脚本 -->
-      <script is:inline>
-        (function() {
-          const savedTheme = localStorage.getItem('theme') || 
-            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-          document.documentElement.classList.toggle('dark', savedTheme === 'dark');
-        })();
-      </script>
-    </head>
 </head>
 <body class="dark:bg-gray-950">
 <slot />
