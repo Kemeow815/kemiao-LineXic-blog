@@ -49,6 +49,18 @@ import * as markdownData from "./_links.md";
         <markdownData.Content />
     </MarkdownBody>
 
+<script>
+		import twikoo from "twikoo";
+		twikoo({
+		  envId: "https://twikoo.linexic.top/", // your environment ID or url
+		  el: "#tcomment", // the container ID which will show the comment
+		  lang: "zh-cn", // language for the comment template. for the full list, refer to https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
+		}).then(() => {
+		  console.log("comment loading success");
+		});
+	  </script>
+
+<!--
     <script src="https://giscus.app/client.js"
         data-repo="LineXic/LineXic-blog"
         data-repo-id="R_kgDOOQmiLw"
@@ -65,5 +77,5 @@ import * as markdownData from "./_links.md";
         crossorigin="anonymous"
         async>
 </script>
-
+-->
 </BlogPage>
