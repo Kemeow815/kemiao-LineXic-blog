@@ -4,7 +4,7 @@ import Friend from "../../components/friend/Friend.astro";
 import FriendList from "../../components/friend/FriendList.astro";
 import FriendCategoryTitle from "../../components/friend/FriendCategoryTitle.astro";
 import MarkdownBody from "../../components/MarkdownBody.astro";
-
+import Comment from "../../components/Comment.astro";
 import * as markdownData from "./_links.md";
 ---
 
@@ -48,8 +48,8 @@ import * as markdownData from "./_links.md";
     <MarkdownBody class="mt-6">
         <markdownData.Content />
     </MarkdownBody>
-
-<script>
+<Comment />
+          <script>
 		import twikoo from "twikoo";
 		twikoo({
 		  envId: "https://twikoo.linexic.top/", // your environment ID or url
