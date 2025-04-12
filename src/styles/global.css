@@ -30,6 +30,9 @@
     --color-accent-950: var(--color-amber-950);
 }
 
+.tk-avatar .tk-avatar-img {
+    margin: 0;
+}
 /* Hack: 改善 kbd 间距不够的问题 */
 .prose kbd:has(kbd) {
     padding: 0.5rem;
