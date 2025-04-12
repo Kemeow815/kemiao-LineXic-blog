@@ -1,9 +1,12 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ThemeSwitcher from '../components/ThemeSwitcher.vue';
 ---
 
 <BaseLayout title="页面未找到">
-  <main class="min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800">
+  <ThemeSwitcher client:load />
+  
+  <main class="min-h-screen flex flex-col items-center justify-center p-6 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 transition-colors duration-300">
     <div class="max-w-2xl text-center space-y-6 animate-fade-in-up">
       <div class="text-8xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
         404
