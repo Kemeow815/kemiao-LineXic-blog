@@ -13,9 +13,11 @@ GitHub是一个储存代码的地方我可以把我写到的放在里面，通�
 在学校我是一名高中的学习一般学生，在家里我是弟弟妹妹的「老大」，在网络我是Minecraft游戏爱好者也是[承挨汉化组](https://blog.chengai77a6b.top/)的一员同时也是这个「书屋」的一员小站长
 后来因为设备的更新现在主要使用电脑VScode编写博客等
 
-# INFJ性格
+## 联系
 
-[![提倡者INFJ性格](https://s2.loli.net/2025/04/06/7oSV4v8z531edWI.png)](https://www.16personalities.com/ch/infj-%E4%BA%BA%E6%A0%BC?utm_source=results-turbulent-advocate&utm_medium=email&utm_campaign=ch&utm_content=type-personality-0)
+邮箱 <linexic@qq.com>
+<br/>
+GitHub <https://github.com/linexic>
 
 ## 写博客
 
@@ -31,3 +33,5 @@ GitHub是一个储存代码的地方我可以把我写到的放在里面，通�
 ## 技术栈
 
 <img src="https://skillicons.dev/icons?i=vue,html,css,js,nodejs,npm,pnpm,cloudflare,vercel,astro,tailwind,git,github,powershell,vscode&perline=5">
+
+
