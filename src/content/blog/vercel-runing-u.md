@@ -13,7 +13,7 @@ pubDate: '2025-04-19'
 1. 点击[Fork](https://github.com/umami-software/umami/fork) 即可
 2. 导入后点击 `Settings` 进入设置页面，这时部署可能会报错，需要配置环境变量
 3. 点击 `Environment Variables` 进入环境变量页面
-4. 点击 `Add Variable` 按钮，添加 `DATABASE_URL` 环境变量，例如 `postgresql://username:mypassword@localhost:5432/mydb mysql://username:mypassword@localhost:3306/mydb`
+4. 点击 `Add Variable` 按钮，添加 `DATABASE_URL` 环境变量，例如 `postgresql://username:mypassword@/`
 5. 点击 `Save` 按钮保存
 6. 点击 `Deployments` 进入部署页面
 7. 点击 `Visit` 按钮进入网站
