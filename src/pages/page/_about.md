@@ -33,5 +33,3 @@ GitHub <https://github.com/linexic>
 ## 技术栈
 
 <img src="https://skillicons.dev/icons?i=vue,html,css,js,nodejs,npm,pnpm,cloudflare,vercel,astro,tailwind,git,github,powershell,vscode&perline=5">
-
-
