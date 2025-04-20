@@ -18,7 +18,7 @@ pubDate: '2025-04-19'
 6. 点击 `Deployments` 进入部署页面
 7. 点击 `Visit` 按钮进入网站
 
-![屏幕截图_19-4-2025_11287_vercel.com.jpeg](https://s2.loli.net/2025/04/19/s2YZTnUehKGuH5g.jpg)
+![_19-4-2025_11287_vercel.com.jpeg](https://s2.loli.net/2025/04/19/s2YZTnUehKGuH5g.jpg)
 
 ## 获得Neon数据库
 
