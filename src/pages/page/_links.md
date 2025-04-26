@@ -6,8 +6,6 @@
 
 你可以在下方查看友链状态
 
-> [LineXic友链检测](https://status.linexic.top/)
-
 ## 我的个人信息
 
 ```yaml
