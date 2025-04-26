@@ -30,6 +30,10 @@
     --color-accent-950: var(--color-amber-950);
 }
 
+:root {
+    font-synthesis: style;
+}
+
 .tk-avatar .tk-avatar-img {
     margin: 0;
 }
