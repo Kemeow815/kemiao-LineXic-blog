@@ -31,6 +31,12 @@
 }
 
 :root {
+    word-wrap: break-word;
+    hyphens: auto;
+}
+
+
+:root {
     font-synthesis: style;
 }
 
