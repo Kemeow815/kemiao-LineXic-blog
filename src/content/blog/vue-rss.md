@@ -42,7 +42,8 @@ onMounted(async () => {
 })
 </script>
   ```
-> [查看完整源码](https://github.com/LineXic/LineXic-home-2/blob/main/src/views/ArchivesView.vue)
+
+> [查看完整源码](http://linexic.top/code/ArchivesView.vue)
 
 这里用`axios`解决了跨域问题，`parseRSS`函数解析了RSS的XML数据，`formatDate`函数用于格式化日期。如果没有安装`axios`可以通过以下命令安装
 
