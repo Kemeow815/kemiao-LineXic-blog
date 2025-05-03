@@ -15,7 +15,7 @@ export default defineConfig({
   // 在根路径下（例如 `https://example.com/`）则填写 `/`
   base: process.env.NODE_ENV === "production" ? "/" : "",
 
-  integrations: [mdx(), sitemap({ xslURL: '/sitemap.xsl' }), svelte(), vue(), vercel()],
+  integrations: [mdx(), sitemap(), svelte(), vue(), vercel()],
 
   markdown: {
     remarkRehype: {
