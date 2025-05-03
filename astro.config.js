@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 import vue from '@astrojs/vue';
 import vercel from '@astrojs/vercel';
 
+// https://astro.build/config
 export default defineConfig({
   // 请修改为你自己的线上地址，谢谢茄子
   site: 'https://www.linexic.top',
@@ -14,16 +15,19 @@ export default defineConfig({
   // 在根路径下（例如 `https://example.com/`）则填写 `/`
   base: process.env.NODE_ENV === "production" ? "/" : "",
 
-  integrations: [mdx(), sitemap(), svelte(), vue()],
+  integrations: [mdx(), sitemap({ xslURL: '/sitemap.xsl' }), svelte(), vue(), vercel()],
 
-  markdown: { // 注意这里需要保持原有缩进层级
+  markdown: {
     remarkRehype: {
       footnoteLabel: "脚注",
-      footnoteBackLabel: '文档内容的脚注'
+      footnoteBackLabel: '文档内容的脚注',
     }
   },
 
-  vite: {
-    plugins: [tailwindcss()]
-  }
+sitemap: {
+xslURL: '/sitemap.xsl'
+},
+vite: {
+  plugins: [tailwindcss()]
+}
 });
