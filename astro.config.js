@@ -24,9 +24,6 @@ export default defineConfig({
     }
   },
 
-sitemap: {
-xslURL: '/sitemap.xsl'
-},
 vite: {
   plugins: [tailwindcss()]
 }
