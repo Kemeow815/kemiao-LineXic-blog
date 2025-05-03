@@ -23,7 +23,9 @@ export default defineConfig({
       footnoteBackLabel: '文档内容的脚注',
     }
   },
-
+  sitemap: {
+    xslURL: '/sitemap.xsl'
+},
 vite: {
   plugins: [tailwindcss()]
 }
