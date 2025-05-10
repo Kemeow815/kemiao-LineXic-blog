@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 import vue from '@astrojs/vue';
 import vercel from '@astrojs/vercel';
 import react from '@astrojs/react';
-import fortawesome from '@fortawesome';
+import fortawesome from "@fortawesome/free-solid-svg-icons";
 
 // https://astro.build/config
 export default defineConfig({
