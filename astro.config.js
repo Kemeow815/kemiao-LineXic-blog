@@ -5,6 +5,7 @@ import svelte from "@astrojs/svelte";
 import tailwindcss from "@tailwindcss/vite";
 import vue from '@astrojs/vue';
 import vercel from '@astrojs/vercel';
+import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
