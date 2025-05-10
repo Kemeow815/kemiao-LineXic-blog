@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 import vue from '@astrojs/vue';
 import vercel from '@astrojs/vercel';
 import react from '@astrojs/react';
+import fortawesome from '@fortawesome';
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,7 +17,7 @@ export default defineConfig({
   // 在根路径下（例如 `https://example.com/`）则填写 `/`
   base: process.env.NODE_ENV === "production" ? "/" : "",
 
-  integrations: [mdx(), sitemap(), svelte(), vue(), vercel()],
+  integrations: [mdx(), sitemap(), svelte(), vue(), vercel(), react()],
 
   markdown: {
     remarkRehype: {
