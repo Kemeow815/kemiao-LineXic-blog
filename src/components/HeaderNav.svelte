@@ -139,6 +139,7 @@
                         <span class={`duration-200 block w-5 h-[0.225rem] bg-black dark:bg-white rounded-full burger-bar-3 burger-bar-3--s${menuStep} absolute left-1/2`}></span>
                     </span>
                 </button>
+            </div>
         </div>
         <div class={`flex flex-col items-center md:hidden ${menuItemHidden ? "hidden" : ""}`} id={mobileMenuId}>
             <hr class={`w-[calc(100%-1.5rem)] transition-colors duration-400 ${mobileMenuOpen ? "border-black/10 dark:border-white/10" : "border-transparent"}`}>
