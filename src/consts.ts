@@ -28,7 +28,6 @@ export const SITE_MENU: { title: string, href: string, target: string }[] = [
     { title: "关于", href: "./page/about/", target: "" },
     { title: "友链", href: "./page/links/", target: "" },
     { title: "归档", href: "./page/archive/", target: "" },
-    { title: "开往", href: "https://www.travellings.cn/go.html", target: "_blank" }
 ]
 
 // 网站横幅背景图片（明亮主题）
