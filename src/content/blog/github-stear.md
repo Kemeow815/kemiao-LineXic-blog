@@ -11,11 +11,7 @@ GitHub 是个非常有用的东西，里面不仅有程序员分享的代码还�
 
 > 进入正文
 
-## 1.程序员做饭指南
-
-![程序员做饭指南 GitHub](https://img.linexic.top/file/836153eafed43d47a1679.png "程序员做饭指南GitHub")
-
-![最全中华古诗词数据库](https://img.linexic.top/file/a812531de1a282c8c857a.png)
+## 1.最全中华古诗词数据库
 
 记录了从唐宋两朝近一万四千古诗人, 接近 5.5 万首唐诗加 26 万宋诗. 两宋时期 1564 位词人，21050 首词
 
@@ -23,13 +19,11 @@ GitHub 是个非常有用的东西，里面不仅有程序员分享的代码还�
 
 诗词通过 JSON 格式开发，更加方便数据使用
 
-![论语](https://img.linexic.top/file/3fd5e0be41bae12ef3c11.png "论语")
-
 GitHub：[https://github.com/chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
 <br>
 在线：[http://shici.store/](http://shici.store/ "http://shici.store/")
 
-### 3.不止于 CSS
+### 2.不止于 CSS
 
 ![不止于 CSS ](https://img.linexic.top/file/607b39e49e2463f16744a.png "不止于 CSS ")
 
@@ -44,7 +38,7 @@ CSS 奇技淫巧，在这里，都有。
 他的内容同步到他[博客](http://www.cnblogs.com/coco1s/ "博客")和 [issues](https://github.com/chokcoco/iCSS/issues "issues") 内容可以自己探索 <br>
 GitHub：[https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS "https://github.com/chokcoco/iCSS")
 
-#### 4.网页小组件版本的石蒜模拟器
+#### 3.网页小组件版本的石蒜模拟器
 
 ![网页小组件版本的石蒜模拟器](https://img.linexic.top/file/184a478ad146158a32873.png "网页小组件版本的石蒜模拟器")
 
@@ -76,7 +70,7 @@ GitHub：[https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS "ht
 <br>
 在线 [https://github.dsrkafuu.net/sakana-widget/](https://github.dsrkafuu.net/sakana-widget/)
 
-#### 5.程序员工作中常见的英语词汇
+#### 4.程序员工作中常见的英语词汇
 
 ![英语](https://img.linexic.top/file/2e647580ae9f92df598ac.png)
 
