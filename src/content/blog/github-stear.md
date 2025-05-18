@@ -19,11 +19,11 @@ GitHub 是个非常有用的东西，里面不仅有程序员分享的代码还�
 
 诗词通过 JSON 格式开发，更加方便数据使用
 
-GitHub：[https://github.com/chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
-<br>
-在线：[http://shici.store/](http://shici.store/ "http://shici.store/")
+- GitHub：[https://github.com/chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
 
-### 2.不止于 CSS
+- 在线：[http://shici.store/](http://shici.store/ "http://shici.store/")
+
+## 2.不止于 CSS
 
 ![不止于 CSS ](https://img.linexic.top/file/607b39e49e2463f16744a.png "不止于 CSS ")
 
@@ -35,10 +35,11 @@ CSS 奇技淫巧，在这里，都有。
 
 ![内容](https://img.linexic.top/file/c94735a24218532baf05a.png "内容")
 
-他的内容同步到他[博客](http://www.cnblogs.com/coco1s/ "博客")和 [issues](https://github.com/chokcoco/iCSS/issues "issues") 内容可以自己探索 <br>
+他的内容同步到他[博客](http://www.cnblogs.com/coco1s/ "博客")和 [issues](https://github.com/chokcoco/iCSS/issues "issues") 内容可以自己探索
+
 GitHub：[https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS "https://github.com/chokcoco/iCSS")
 
-#### 3.网页小组件版本的石蒜模拟器
+## 3.网页小组件版本的石蒜模拟器
 
 ![网页小组件版本的石蒜模拟器](https://img.linexic.top/file/184a478ad146158a32873.png "网页小组件版本的石蒜模拟器")
 
@@ -66,16 +67,19 @@ GitHub：[https://github.com/chokcoco/iCSS](https://github.com/chokcoco/iCSS "ht
 
 预览
 
-![预览](https://img.linexic.top/file/b6ed221fb42c08741bfa6.png "预览")GitHub：[https://github.com/dsrkafuu/sakana-widget/blob/main/README.zh.md](https://github.com/dsrkafuu/sakana-widget/blob/main/README.zh.md)
-<br>
-在线 [https://github.dsrkafuu.net/sakana-widget/](https://github.dsrkafuu.net/sakana-widget/)
+![预览](https://img.linexic.top/file/b6ed221fb42c08741bfa6.png "预览")
 
-#### 4.程序员工作中常见的英语词汇
+- GitHub：[https://github.com/dsrkafuu/sakana-widget/blob/main/README.zh.md](https://github.com/dsrkafuu/sakana-widget/blob/main/README.zh.md)
+- 在线 [https://github.dsrkafuu.net/sakana-widget/](https://github.dsrkafuu.net/sakana-widget/)
+
+## 4.程序员工作中常见的英语词汇
 
 ![英语](https://img.linexic.top/file/2e647580ae9f92df598ac.png)
 
 其实这个感觉到我们这样的学生也可以用得到的，把它当一个学习英语资料卡就好
 
-![截图](https://img.linexic.top/file/db4721895ba8271f04e3b.png)GitHub：[https://github.com/Wei-Xia/most-frequent-technology-english-words](https://github.com/Wei-Xia/most-frequent-technology-english-words)
-<br>
-在线：[https://learn-english.dev/](https://learn-english.dev/)
+![截图](https://img.linexic.top/file/db4721895ba8271f04e3b.png)
+
+- GitHub：[https://github.com/Wei-Xia/most-frequent-technology-english-words](https://github.com/Wei-Xia/most-frequent-technology-english-words)
+
+- 在线：[https://learn-english.dev/](https://learn-english.dev/)

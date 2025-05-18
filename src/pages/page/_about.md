@@ -15,9 +15,8 @@ GitHub是一个储存代码的地方我可以把我写到的放在里面，通�
 
 ## 联系
 
-邮箱 <linexic@qq.com>
-<br/>
-GitHub <https://github.com/linexic>
+- 邮箱 <linexic@qq.com>
+- GitHub <https://github.com/linexic>
 
 ## 写博客
 
