@@ -1,7 +1,6 @@
 ---
 import Layout from '../../layouts/BlogPage.astro';
 import MarkdownBody from "../../components/MarkdownBody.astro";
-import Comment from "../../components/Comment.astro";
 import * as markdownData from "./_about.md";
 ---
 
@@ -12,17 +11,4 @@ import * as markdownData from "./_about.md";
 	<MarkdownBody class="mt-6">
 		<markdownData.Content />
 	</MarkdownBody>
-	<div>
-	<Comment />
-	<script>
-		import twikoo from "twikoo";
-		twikoo({
-		  envId: "https://talk.linexic.top/", // your environment ID or url
-		  el: "#tcomment", // the container ID which will show the comment
-		  lang: "zh-cn", // language for the comment template. for the full list, refer to https://github.com/imaegoo/twikoo/blob/main/src/client/utils/i18n/index.js
-		}).then(() => {
-		  console.log("comment loading success");
-		});
-	  </script>
-	</div>  
 </Layout>
