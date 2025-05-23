@@ -7,8 +7,8 @@ pubDate: '2025-03-22'
 ## 起因
 
 大概是两个星期前提交了上一篇文章后我博客的搜索功能无法使用了，甚至出现了在本地localhost可以使用但推送上GitHub并不部署后无法使用的乱象
-![pE0RsIg.png](https://s21.ax1x.com/2025/03/22/pE0RsIg.png)
-![pE0RgRs.png](https://s21.ax1x.com/2025/03/22/pE0RgRs.png)
+![pE0RsIg.png](https://www.linexic.top/img/blog/pE0RsIg.webp)
+![pE0RgRs.png](https://www.linexic.top/img/blog/pE0RgRs.webp)
 
 在调试search.json无果后又折腾了一下algolia的key也是没能解决问题，询问群友的时候有人提出用zhilu主题,zhilu主题拥有良好的SEO和舒适的阅读体验，此后我就一直折腾这个主题了，正好我也想换一个方法管理博客文章
 

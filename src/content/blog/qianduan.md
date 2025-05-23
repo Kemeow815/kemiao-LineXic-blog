@@ -4,7 +4,7 @@ description: '围绕着一话题阐述我的理解'
 pubDate: '2024-02-20'
 ---
 
-![封面](https://www.linexic.top/img/qianduan.png)
+![封面](https://www.linexic.top/img/qianduan.webp)
 
 ## 前言
 
@@ -26,7 +26,7 @@ pubDate: '2024-02-20'
 
 前天看了黄玄在掘金社区的演讲这也让我对前端有了一个深刻的认识，特别是当他讲大前端的时候给它赋予了一个新的词`Omni-Frontend`
 
-![Omni-Frontend](https://s11.ax1x.com/2024/02/20/pFY0854.png)
+![Omni-Frontend](https://www.linexic.top/img/blog/pFY0854.webp)
 
 现在有很多人提到前端可能会想`HTML`，`CSS`，`JavaScript`，这些没错，最开始浏览器渲染这些，说白了也就是Web网
 
@@ -34,13 +34,13 @@ pubDate: '2024-02-20'
 
 我们现在经常在网上看到一些全栈开发（ps：那人除外，真的是天赋点拉满了
 
-![WEB](https://pic1.zhimg.com/80/v2-a6eabbcbc5fef709daaf0c56011b1134_1440w.jpg)
+![WEB](https://www.linexic.top/img/blog/v2-a6eabbcbc5fef709daaf0c56011b1134_1440w.jpg)
 
 ## 前端的图景
 
 我认为把前端就目前的图景是很不错的，也不能所有的开发都让后端做了吧，世界还是需要前端的，至少还是需要图形UI的
 
-![前端](https://s11.ax1x.com/2024/02/20/pFY0t2R.png)
+![前端](https://www.linexic.top/img/blog/pFY0t2R.webp)
 
 来看这张图片，左边为2DUI右边是3DUI你觉得哪边看的舒适呢？肯定是左边吧，右边让人总有一种凹凸感
 

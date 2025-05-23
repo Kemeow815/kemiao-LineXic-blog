@@ -4,7 +4,7 @@ description: '从“不懂”到“懂”的过程'
 pubDate: '2024-12-22'
 ---
 
-![封面](https://linexic.top/img/github.jpg)
+![封面](https://linexic.top/img/github.webp)
 
 ## 前言
 

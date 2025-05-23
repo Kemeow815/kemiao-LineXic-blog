@@ -14,24 +14,24 @@ pubDate: '2025-03-14'
 
 打开[Oracle官网](https://www.oracle.com/java/technologies/downloads/)找到适合自己系统的java
 
-![pEa0FVP.png](https://s21.ax1x.com/2025/03/15/pEa0FVP.png)
+![下载oracle](https://www.linexic.top/img/blog/pEa0FVP.webp)
 下载完成后双击安装，一直下一步即可，值得注意的是一般软件不要安装到C盘，因为C盘是系统盘，安装到C盘可能会导致启动电脑慢等问题
 
 ## 配置java
 
 键入`win + x`打开搜索控制面板
 
-![pEa0arR.png](https://s21.ax1x.com/2025/03/15/pEa0arR.png)
+![配置java](https://www.linexic.top/img/blog/pEa0arR.webp)
 
 点击环境变量并且新建
 
-![pEa0dq1.png](https://s21.ax1x.com/2025/03/15/pEa0dq1.png)
+![新建环境变量](https://www.linexic.top/img/blog/pEa0dq1.webp)
 
 - 变量名：JAVA_HOME
 - 变量值：为安装的java路径
 
 双击系统变量中的Path，点击新建`%JAVA_HOME%\bin`
-![pEa06Re.png](https://s21.ax1x.com/2025/03/15/pEa06Re.png)
+![新建](https://www.linexic.top/img/blog/pEa06Re.webp)
 
 完成后保存，打开cmd输入`java -version`查看是否安装成功
 
@@ -41,7 +41,7 @@ pubDate: '2025-03-14'
 
 下载好后把它拖拽到一个新建的文件夹中
 
-![pEaBkLR.png](https://s21.ax1x.com/2025/03/15/pEaBkLR.png)
+![pEaBkLR.png](https://www.linexic.top/img/blog/pEaBkLR.webp)
 
 ## 启动服务器
 
@@ -52,7 +52,7 @@ java -Xmx最大值g -Xms最小值g -jar 下载的文件名字.jar
 ```
 
 出现这个页面就可以安装了，安装路径最好是forge所在的路径下
-![pEaDih8.png](https://s21.ax1x.com/2025/03/15/pEaDih8.png)
+![pEaDih8.png](https://www.linexic.top/img/blog/pEaDih8.webp)
 
 等待安装基本文件后就可以在cmd中输入
 

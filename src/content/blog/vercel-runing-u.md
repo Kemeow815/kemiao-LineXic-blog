@@ -18,20 +18,20 @@ pubDate: '2025-04-19'
 6. 点击 `Deployments` 进入部署页面
 7. 点击 `Visit` 按钮进入网站
 
-![vercel-umail](https://www.linexic.top/blog/vercel-umail.webp)
+![vercel-umail](https://www.linexic.top/img/blog/vercel-umail.webp)
 
 ## 获得Neon数据库
 
-![neon.jpg](https://www.linexic.top/blog/neon.webp)
+![neon.jpg](https://www.linexic.top/img/blog/neon.webp)
 
  注册Neon数据库并完成登录后，点击 `New Project` 按钮创建项目
- ![New Project](https://www.linexic.top/blog/NewProject.webp)
+ ![New Project](https://www.linexic.top/img/blog/NewProject.webp)
 
 从上到下依次是项目名称，数据库名称，云服务托管商和云服务所在地区，选择距离我们近的地方反应会更快填写完成后点击 `Create` 按钮创建项目
 
 点击 `Connect` 按钮进入数据库连接页面复制保存下来
 
-![数据库连接](https://www.linexic.top/blog/Connect.webp)
+![数据库连接](https://www.linexic.top/img/blog/Connect.webp)
 
 然后将所需的环境变量`DATABASE_URL`的值替换为复制的数据库连接字符串，点击 `Save` 按钮保存后并重新部署
 

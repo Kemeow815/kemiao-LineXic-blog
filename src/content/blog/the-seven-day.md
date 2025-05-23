@@ -3,7 +3,7 @@ title: '读余华《第七天》'
 description: '初次读余华老师的书选了一本'
 pubDate: '2025-03-01'
 ---
-![第七天](https://x0.ifengimg.com/ucms/2021_09/801CA150057601C7BD03AD282B3A191CEA4B446A_size180_w1080_h1410.jpg "第七天")
+![第七天](https://www.linexic.top/img/blog/801CA150057601C7BD03AD282B3A191CEA4B446A_size180_w1080_h1410.webp "第七天")
 
 ## 震撼
 

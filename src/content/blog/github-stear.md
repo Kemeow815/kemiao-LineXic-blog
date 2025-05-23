@@ -15,7 +15,7 @@ GitHub 是个非常有用的东西，里面不仅有程序员分享的代码还�
 
 记录了从唐宋两朝近一万四千古诗人, 接近 5.5 万首唐诗加 26 万宋诗. 两宋时期 1564 位词人，21050 首词
 
-![中国诗词](https://avatars3.githubusercontent.com/u/30764933?s=200&v=4 "中国诗词")
+![中国诗词](https://www.linexic.top/img/blog/chinese.webp "中国诗词")
 
 诗词通过 JSON 格式开发，更加方便数据使用
 
