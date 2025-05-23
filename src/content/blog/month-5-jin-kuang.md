@@ -9,7 +9,7 @@ pubDate: '2025-04-12'
 ## 新年
 
 按照我们那里的习俗过年是需要「走亲戚的」小辈也会给长辈磕头百年，图为我拜年的时候
-![轮番拜年](https://img.chengai77a6b.top/imgse/mmexport1744391555694.jpg "拜年")
+![轮番拜年](https://www.linexic.top/blog/bainian.webp "拜年")
 
 ## 球拍
 
