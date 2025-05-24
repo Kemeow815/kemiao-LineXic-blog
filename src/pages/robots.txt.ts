@@ -5,7 +5,6 @@ User-agent: *
 Allow: /
 Disallow：/img/
 Disallow：/font/
-Disallow：/blog/
 
 Sitemap: ${sitemapURL.href}
 `;
