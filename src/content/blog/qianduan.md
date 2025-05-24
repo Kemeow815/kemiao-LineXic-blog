@@ -34,7 +34,7 @@ pubDate: '2024-02-20'
 
 我们现在经常在网上看到一些全栈开发（ps：那人除外，真的是天赋点拉满了
 
-![WEB](https://www.linexic.top/img/blog/v2-a6eabbcbc5fef709daaf0c56011b1134_1440w.jpg)
+![WEB](https://www.linexic.top/img/blog/v2-a6eabbcbc5fef709daaf0c56011b1134_1440w.webp)
 
 ## 前端的图景
 
