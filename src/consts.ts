@@ -1,26 +1,26 @@
 // 引入的图片对象，用于 Astro 的 <Image> 组件
 // 详见 https://docs.astro.build/en/guides/images/#image--astroassets
-import authorAvatarImage from "./assets/avatar.webp";
+import authorAvatarImage from "./assets/kemiao.jpg";
 import headerImageDay from "./assets/header_day.webp";
 import headerImageNight from "./assets/header_day.webp";
 
 // 网站的 <html> 语言标签
-export const SITE_LANGUAGE = "en";
+export const SITE_LANGUAGE = "zh-CN";
 
 // 网站名称
-export const SITE_TITLE = 'LineXic书屋';
+export const SITE_TITLE = '喵落阁';
 
 // 网站的副标题
-export const SITE_DESCRIPTION = '难离难舍，想抱紧些。';
+export const SITE_DESCRIPTION = '克喵的博客';
 
 // 博主的昵称
-export const SITE_AUTHOR_NAME = "LineXic";
+export const SITE_AUTHOR_NAME = "克喵爱吃卤面";
 
 // 博主的头像
 export const SITE_AUTHOR_AVATAR = authorAvatarImage;
 
 // 网站版权起始年份
-export const SITE_COPYRIGHT_YEAR_START = "2023";
+export const SITE_COPYRIGHT_YEAR_START = "2025";
 
 // 网站头部导航菜单
 export const SITE_MENU: { title: string, href: string, target: string }[] = [

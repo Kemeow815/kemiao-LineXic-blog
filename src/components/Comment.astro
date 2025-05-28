@@ -8,7 +8,7 @@
       if (commentsContainer) {
         const script = document.createElement("script");
         script.src =
-          "https://cdnjs.cloudflare.com/ajax/libs/twikoo/1.6.32/twikoo.all.min.js";
+          "https://cdn.jsdelivr.net/npm/twikoo@1.6.44/dist/twikoo.min.js";
         script.defer = true;
         script.integrity =
           "sha512-oLwAGOCSlT4rWN1IV2lpvUWOwYPo1xhJyrIhFk6jVa+S7Vi2AKvr0rEuvHZAkVd9p3sJBTMcx2XabwK0HGxFuA==";
@@ -19,7 +19,7 @@
           const initScript = document.createElement("script");
           initScript.innerHTML = `
             twikoo.init({
-              envId: "https://talk.linexic.top/",
+              envId: "https://twikoo-astro-linexic-blog.314926.xyz/",
               el: "#tcomment",
               lang: zh-cn",
             });

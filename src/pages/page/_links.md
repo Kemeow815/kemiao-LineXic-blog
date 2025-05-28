@@ -7,8 +7,8 @@
 ## 我的个人信息
 
 ```yaml
-标题:LineXic书屋
-链接:https://linexic.top
-头像:https://linexic.top/avatar.webp
-描述:难离难舍，想抱紧些
+标题:喵落阁
+链接:https://blog-v1.kemeow.top
+头像:https://cn.cravatar.com/avatar/1F6C8947D35A8186A1647009BA8BC5F2?size=256
+描述:愿你看清一切真相后，依旧热爱你的家人和朋友。
 ```
