@@ -33,7 +33,7 @@ const formatDate = (dateString) => {
 
 onMounted(async () => {
   try {
-    const response = await axios.get('https://www.linexic.top/rss.xml')
+    const response = await axios.get('https://blog-v2.kemeow.top/rss.xml')
     articles.value = (await parseRSS(response.data)).slice(0, 10) // 显示最新10篇文章
   } catch (error) {
     console.error('获取RSS失败:', error)
